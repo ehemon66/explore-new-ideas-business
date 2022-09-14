@@ -1,0 +1,176 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Tiro Bangla', serif;
+}
+
+/*1st part*/
+
+
+.Get-Start {
+    background-image: url(images/business.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 20px;
+    padding-left: 6px;
+
+    text-align-last: center;
+
+
+    height: 550px;
+}
+
+.Get-Start h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.Get-Start p {
+    font-weight: 600;
+    color: burlywood;
+}
+
+.link-button {
+    background-color: crimson;
+    padding: 20px 40px;
+    border-radius: 8px;
+
+    text-decoration: none;
+}
+
+/*2nd part*/
+
+
+.work {
+    display: flex;
+    border-radius: 12px;
+    margin-top: 80px;
+    background-color: rgb(222, 225, 231);
+    padding: 10px 12px;
+}
+
+#pick {
+    border: 25px solid gray;
+    background-color: aliceblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 13px;
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+
+
+#fst {
+
+    border: 2px solid none;
+    background-color: rgba(185, 209, 230, 0.459);
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 20px 40px;
+
+}
+
+.up {
+    text-align: center;
+    background-color: aliceblue;
+    height: 220px;
+    width: 780px;
+    margin-left: 10px;
+}
+
+.pasa {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+
+
+#pa {
+    background-color: rgb(202, 180, 180);
+    height: 250px;
+    width: 380px;
+    margin-left: 20PX;
+}
+
+#sa {
+    background-color: rgb(202, 180, 180);
+    height: 250px;
+    width: 380px;
+    margin-left: 20PX;
+    margin-right: 10px;
+}
+
+
+/*3rd part*/
+
+.help-area {
+
+    height: 800px;
+    width: 100%;
+
+    background-color: aliceblue;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-top: 150px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.help-area h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.h-main {
+    display: flex;
+}
+
+.h-a {
+    background-color: wheat;
+    width: 90%;
+    box-shadow: 5px 8px 15px gray;
+    margin: 40px 30px;
+}
+
+
+
+
+
+.item-pic img {
+    height: 550px;
+    width: 500px;
+
+}
+
+/*4rt part*/
+
+#brands {
+    text-align: center;
+
+    margin-top: 120px;
+
+
+    box-shadow: 3px 3px khaki, -1em 0 0.4em olive;
+}
+
+
+
+
+
+/*footer*/
+
+
+footer {
+    background-color: rgb(55, 55, 97);
+}
