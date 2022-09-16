@@ -28,6 +28,7 @@ body {
     left: 150px;
 }
 
+
 .Get-Start h1 {
     font-weight: 700;
     font-size: 40px;
@@ -36,7 +37,7 @@ body {
 
 .Get-Start p {
     font-weight: 600;
-    color: burlywood;
+    color: black;
 }
 
 .link-button {
@@ -61,7 +62,7 @@ body {
 }
 
 #pick {
-    padding: 2%;
+    padding: 3%;
 }
 
 
@@ -69,11 +70,18 @@ body {
 
 .up {
     height: 40%;
+
+    text-align: justify;
+}
+
+.up h1 {
+    text-align: center;
 }
 
 .pasa {
     display: flex;
 
+    padding: 3%;
 
     height: 40%;
 }
@@ -85,6 +93,8 @@ body {
     width: 80%;
 
     text-align: center;
+
+    box-shadow: 5px 5px 8px 6px grey;
 }
 
 #sa {
@@ -92,58 +102,62 @@ body {
     width: 80%;
 
     text-align: center;
+
+    box-shadow: 5px 5px 8px 6px grey;
 }
 
 
 /*3rd part*/
 
+
+
 .help-area {
 
-
-
-    background-color: aliceblue;
-
-    padding-left: 10px;
-    padding-right: 10px;
-
-    margin-top: 150px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-
+    background-color: rgb(223, 229, 235);
 }
 
 .help-area h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 100px;
+    padding: 2%;
 }
 
 .h-main {
+
     display: flex;
 }
 
-.h-a {
-    background-color: wheat;
-    width: 90%;
-    box-shadow: 5px 8px 15px gray;
-    margin: 5% 2%;
+.item {
+
+
+    height: 95%;
+    width: 95%;
+    margin: 5%;
+    padding: 5%;
 }
 
 #mi0 {
-    margin: 25% auto;
-    padding: 2%;
-    box-shadow: 3px 0px 28px -5px goldenrod;
-    border-radius: 5%;
+    border: 2px solid khaki;
+
+    background-color: rgb(233, 236, 240);
+
+    margin: 5%;
+
+    padding: 1%;
 }
 
 
+.item-pic {
 
-
+    height: 95%;
+    width: 95%;
+    margin: 5%;
+}
 
 .item-pic img {
-    height: 550px;
-    width: 600px;
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -160,7 +174,7 @@ body {
 .network-item {
 
     display: flex;
-    background-color: aliceblue;
+    background-color: rgb(211, 222, 231);
 
     margin-top: 180px;
 
@@ -201,34 +215,19 @@ body {
 #brands {
     text-align: center;
 
-    margin-top: 120px;
 
-
-    box-shadow: 3px 3px khaki, -1em 0 0.4em olive;
+    margin: 20%;
 }
-
-
-
-
-
-
 
 /*footer*/
 
-
 footer {
-    background-color: rgb(55, 55, 97);
+    background-color: rgb(0, 0, 0);
 
-    display: flex;
-
-    height: 450px;
+    height: 200px;
 }
 
-.foot {
-    background-color: aliceblue;
-    height: 200px;
-    width: 250px;
-
-    margin: 3%;
-    padding: 2%;
+.ff {
+    text-align: center;
+    color: red;
 }
